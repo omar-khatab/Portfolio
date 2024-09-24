@@ -1,2 +1,2 @@
 Visit My website:
-https://omar-khatab.github.io/My-Portfolio/
+ https://omar-khatab.github.io/Portfolio/
