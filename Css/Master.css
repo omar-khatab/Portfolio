@@ -72,8 +72,8 @@ ul {
 .house {
     width: 100vw;
     height: 100vh;
-    perspective: 200px;
     overflow: hidden;
+    perspective: 200px;
 }
 .rooms {
     width: 100%;
@@ -108,7 +108,7 @@ ul {
     transform: translate(0,0);
 }
 .rooms > div .container.go {
-    animation: show 2s forwards;
+    animation: show 1s forwards;
 }
 @keyframes show {
     from {
@@ -793,9 +793,6 @@ ul {
 }
 .top .container .box:nth-child(6) {
     right: 260%;
-}
-.top .container .box:nth-child(7) {
-    right: 310%;
 }
 .top .container .box:hover {
     transform: rotateX(0deg) translateZ(50px);

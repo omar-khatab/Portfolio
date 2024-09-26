@@ -97,8 +97,8 @@ moreIcon.onclick = () => {
 let leftArrow = document.querySelector(".top .slide span:first-child")
 let rightArrow = document.querySelector(".top .slide span:nth-child(2)")
 let boxWorks = document.querySelectorAll(".top .container .box")
-let percentPosition = [ 10, 60, 110, 160, 210, 260, 310]
-let d = 0
+let percentPosition = [ 10, 60, 110, 160, 210, 260]
+let d = 0;
 let n = 0;
 
 rightArrow.onclick = () => {
@@ -119,7 +119,7 @@ leftArrow.onclick = () => {
     for(i = 0; i < boxWorks.length; i++) {
         boxWorks[i].style.cssText = `right:${percentPosition[i] + d}%`
     }
-    if ( d == -300 ) {
+    if ( d == -250 ) {
         leftArrow.classList.add("no-click");
     }
 }
