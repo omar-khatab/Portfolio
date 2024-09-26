@@ -57,14 +57,14 @@ ul {
         width: 1370px;
     }
 }
-@media (max-width:767px) {
-    html {
-        font-size: 12px;
-    }
-}
 @media (max-width:991px) {
     html {
         font-size: 14px;
+    }
+}
+@media (max-width:767px) {
+    html {
+        font-size: 12px;
     }
 }
 /* Start Global Element */
@@ -102,7 +102,7 @@ ul {
     transition: var(--transition-time);
     transform: translateY(0);
     display: flex;
-    z-index: 2;
+    z-index: 5;
 }
 .rooms > .overlay.show {
     transform: translate(0,0);
@@ -143,7 +143,7 @@ ul {
     position: absolute;
     z-index: 1000;
     padding: 10px;
-    color: black;
+    color: var(--primary-color);
     font-size: 35px;
     bottom: 15px;
     left: 70px;
@@ -159,9 +159,6 @@ ul {
 }
 .rooms > div > .see {
     bottom: 70px;
-}
-.rooms > div > .more:hover {
-    color: var(--primary-color);
 } 
 .house > i:hover,
 .rooms > div > i:hover {
@@ -180,16 +177,6 @@ ul {
     padding: 10px;
     font-size: 1rem;
     width: fit-content;
-}
-.rooms > div > .more {
-    position: absolute;
-    left: 50%;
-    bottom: 5px;
-    transform: translateX(-50%);
-    z-index: 2;
-    font-size: 50px;
-    cursor: pointer;
-    transition: var(--transition-time);
 }
 .hide {
     transform: translateX(-200px);
@@ -374,7 +361,7 @@ ul {
 .back .container .details a {
     display: block;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: fit-content;
     background-color: var(--primary-color);
     border-radius: 6px;
@@ -382,10 +369,13 @@ ul {
     transition: var(--transition-time);
     position: absolute;
     bottom: -60px;
-    left: 0;
+    right: 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px #777;
 }
 .back .container .details a:hover {
     background-color: transparent;
+    box-shadow: 0px 0px 20px var(--main-color);
 }
 .back .container .photo-about {
     width: 400px;
@@ -565,10 +555,32 @@ ul {
 .left .container .card p {
     line-height: 1.7;
 }
-@media (max-width:767px) {
+.left .more {
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--main-color);
+    font-weight: bold;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: var(--transition-time);
+    box-shadow: 0px 0px 20px #777;
+}
+.left .more:hover {
+    background-color: transparent;
+    box-shadow: 0px 0px 20px var(--main-color);
+}
+@media (max-width:1199px) {
     .left .container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+}
+@media (max-width:991px) {
     .left .container .card {
         padding: 10px;
     }
@@ -731,7 +743,6 @@ ul {
     position: relative;
 }
 .top .overlay {
-    /* background-color: var(--main-color); */
     background-image: linear-gradient(to bottom , var(--main-color), #ccc);
     font-size: 2.5rem;
     justify-content: center;
@@ -752,6 +763,7 @@ ul {
     width:100%;
     transition: var(--transition-time);
     position: absolute;
+    margin: 50px 0;
 }
 .top .container .box {
     transform: rotateX(40deg);
