@@ -859,9 +859,9 @@ ul {
 .bottom .container .ability {
     background-color: var(--primary-color);
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
-    padding: 10px 20px;
+    padding:20px;
     border-radius: 6px;
     position: relative;
 }
@@ -875,9 +875,14 @@ ul {
     right: 0;
     top: -25px;
 }
+.bottom .container .ability h3 {
+    width: 120px;
+    text-align: center;
+    margin: 0;
+}
 .bottom .container .ability .progress {
     background-color: var(--secondary-color);
-    width: 100%;
+    flex: 1;
     height: 20px;
     border-radius: 6px;
     overflow: hidden;
