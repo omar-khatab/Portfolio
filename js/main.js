@@ -96,11 +96,24 @@ moreIcon.onclick = () => {
 // slide the works
 let leftArrow = document.querySelector(".top .slide span:first-child")
 let rightArrow = document.querySelector(".top .slide span:nth-child(2)")
+let containerWork = document.querySelector(".top .container")
+let boxes = document.querySelector(".top .container .boxes")
 let boxWorks = document.querySelectorAll(".top .container .box")
-let percentPosition = [ 10, 60, 110, 160, 210, 260]
+let percentPosition = []
 let d = 0;
 let n = 0;
 
+// style the boxes with right position
+boxWorks.forEach((e,i) => {
+    e.style.right = `calc(10% + 50%*${i})`
+})
+
+// push the position style to array dynamically
+for(let i = 0 ; i < boxWorks.length ; i++) {
+    percentPosition.push(10+50*i)
+}
+
+// control on the slide with right arrow
 rightArrow.onclick = () => {
     leftArrow.classList.remove("no-click");
     d = n + 50
@@ -112,6 +125,8 @@ rightArrow.onclick = () => {
         rightArrow.classList.add("no-click");
     }
 }
+
+// control on the slide with left arrow
 leftArrow.onclick = () => {
     rightArrow.classList.remove("no-click")
     n = d - 50
@@ -119,7 +134,8 @@ leftArrow.onclick = () => {
     for(i = 0; i < boxWorks.length; i++) {
         boxWorks[i].style.cssText = `right:${percentPosition[i] + d}%`
     }
-    if ( d == -250 ) {
+    let stopSlide = (boxWorks.length-1) * 50
+    if ( d == -stopSlide ) {
         leftArrow.classList.add("no-click");
     }
 }
