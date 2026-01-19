@@ -139,3 +139,7 @@ leftArrow.onclick = () => {
         leftArrow.classList.add("no-click");
     }
 }
+
+// document.body.addEventListener("click" , (e) => {
+//     console.log(e.target)
+// })
