@@ -1,1 +1,26 @@
+# Old Portfolio — 7 Projects Archive
+
+Archive shows evolution from simple HTML/CSS to React: Template_1 to 5, Dashboard, Next.js. 7 templates as practice for PSD to HTML and responsive design.
+
+### 🔗 Live Demo
 https://omar-khatab.github.io/Portfolio/
+
+### 📂 Projects in this archive
+1. **Template_1** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Template_1/)
+2. **Template_2** - [Live](https://omar-khatab.github.io/Template_2/)
+3. **Template_3** - [Live](https://omar-khatab.github.io/Template_3/)
+4. **Template_4** - [Live](https://omar-khatab.github.io/Template_4/)
+5. **Template_5** - [Live](https://omar-khatab.github.io/Template_5/)
+6. **Dashboard Template** - [Live](https://omar-khatab.github.io/dashbord-template/)
+7. **Next.js Template** - [Live](https://template-next-js-p236.vercel.app/)
+
+### 🛠️ Stack
+- HTML5 / CSS3 / JavaScript
+- React / Next.js
+- Responsive Design
+
+### 📈 Evolution
+This portfolio shows my progress from basic HTML/CSS to modern React and Next.js.
+
+### 👨‍💻 Author
+Omar Khatab - [Portfolio](https://portfolio-upgrade-wr9n.vercel.app/) - [LinkedIn](https://www.linkedin.com/in/omar-essam-319c/)
