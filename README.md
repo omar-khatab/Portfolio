@@ -6,13 +6,13 @@ Archive shows evolution from simple HTML/CSS to React: Template_1 to 5, Dashboar
 https://omar-khatab.github.io/Portfolio/
 
 ### 📂 Projects in this archive
-1. **Template_1** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Template_1/)
-2. **Template_2** - [Live](https://omar-khatab.github.io/Template_2/)
+1. **Leon-Agency** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Leon-Agency/)
+2. **Kasper-Creative-Agency** - [Live](https://omar-khatab.github.io/Template_2/)
 3. **Template_3** - [Live](https://omar-khatab.github.io/Template_3/)
 4. **Template_4** - [Live](https://omar-khatab.github.io/Template_4/)
 5. **Template_5** - [Live](https://omar-khatab.github.io/Template_5/)
-6. **Dashboard Template** - [Live](https://omar-khatab.github.io/dashbord-template/)
-7. **Next.js Template** - [Live](https://template-next-js-p236.vercel.app/)
+6. **Admin-Dashboard** - [Live](https://omar-khatab.github.io/dashbord-template/)
+7. **SaaS Landing -- Next.js** - [Live](https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/)
 
 ### 🛠️ Stack
 - HTML5 / CSS3 / JavaScript

@@ -360,18 +360,25 @@ ul {
 }
 .back .container .details a {
     display: block;
-    padding: 10px;
+    
     font-size: 1.25rem;
     width: fit-content;
     background-color: var(--primary-color);
     border-radius: 6px;
     color: var(--main-color);
     transition: var(--transition-time);
+    
+    font-weight: bold;
+    box-shadow: 0px 0px 20px #777;
+}
+.back .container .details .hire {
     position: absolute;
     bottom: -60px;
     right: 0;
-    font-weight: bold;
-    box-shadow: 0px 0px 20px #777;
+    padding: 10px;
+}
+.back .container .details .website {
+    padding: 5px;
 }
 .back .container .details a:hover {
     background-color: transparent;
