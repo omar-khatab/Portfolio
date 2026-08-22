@@ -11,7 +11,7 @@ https://omar-khatab.github.io/roots-before-react/
 3. **Template_3** - [Live](https://omar-khatab.github.io/Template_3/)
 4. **Template_4** - [Live](https://omar-khatab.github.io/Template_4/)
 5. **Template_5** - [Live](https://omar-khatab.github.io/Template_5/)
-6. **Admin-Dashboard** - [Live](https://omar-khatab.github.io/dashbord-template/)
+6. **Admin-Dashboard** - [Live](https://omar-khatab.github.io/Admin-Dashboard/)
 7. **SaaS Landing -- Next.js** - [Live](https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/)
 
 ### 🛠️ Stack
