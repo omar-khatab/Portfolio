@@ -6,8 +6,8 @@ Archive shows evolution from simple HTML/CSS to React: Template_1 to 5, Dashboar
 https://omar-khatab.github.io/roots-before-react/
 
 ### 📂 Projects in this archive
-1. **Leon-Agency** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Leon-Agency/)
-2. **Kasper-Creative-Agency** - [Live](https://omar-khatab.github.io/Template_2/)
+1. **Template_1 = Leon-Agency** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Leon-Agency/)
+2. **Template_2 = Kasper-Creative-Agency** - [Live](https://omar-khatab.github.io/Template_2/)
 3. **Template_3 = Digital Agency** - [Live](https://omar-khatab.github.io/Template_3/)
 4. **Template_4 = Gonex Agency** - [Live](https://omar-khatab.github.io/Template_4/)
 5. **Template_5 = Special Agency** - [Live](https://omar-khatab.github.io/Template_5/)
