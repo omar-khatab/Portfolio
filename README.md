@@ -8,9 +8,9 @@ https://omar-khatab.github.io/roots-before-react/
 ### 📂 Projects in this archive
 1. **Leon-Agency** - Leon Creative Agency - [Live](https://omar-khatab.github.io/Leon-Agency/)
 2. **Kasper-Creative-Agency** - [Live](https://omar-khatab.github.io/Template_2/)
-3. **Template_3** - [Live](https://omar-khatab.github.io/Template_3/)
-4. **Template_4** - [Live](https://omar-khatab.github.io/Template_4/)
-5. **Template_5** - [Live](https://omar-khatab.github.io/Template_5/)
+3. **Template_3 = Digital Agency** - [Live](https://omar-khatab.github.io/Template_3/)
+4. **Template_4 = Gonex Agency** - [Live](https://omar-khatab.github.io/Template_4/)
+5. **Template_5 = Special Agency** - [Live](https://omar-khatab.github.io/Template_5/)
 6. **Admin-Dashboard** - [Live](https://omar-khatab.github.io/Admin-Dashboard/)
 7. **SaaS Landing -- Next.js** - [Live](https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/)
 
