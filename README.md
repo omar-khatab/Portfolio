@@ -1,6 +1,6 @@
 # Old Portfolio — 5 Projects Archive
 
-Archive shows evolution from simple HTML/CSS to React: Template_1 to 5 5 templates as practice for PSD to HTML and responsive design.
+Archive shows evolution from simple HTML/CSS to React: Template_1 to 5 templates as practice for PSD to HTML and responsive design.
 
 ### 🔗 Live Demo
 https://omar-khatab.github.io/roots-before-react/
